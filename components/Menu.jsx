@@ -38,7 +38,6 @@ const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
                         >
                           <li className="h-12 flex justify-between items-center px-3 hover:bg-black/[0.03] rounded-md">
                             {category?.name}
-                            <span className="opacity-50 text-sm">{`(${category?.products?.data?.length})`}</span>
                           </li>
                         </Link>
                       );
